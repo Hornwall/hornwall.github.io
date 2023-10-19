@@ -1,0 +1,23 @@
+{
+  "subject": "acct:Hannes@linux.social",
+  "aliases": [
+    "https://linux.social/@Hannes",
+    "https://linux.social/users/Hannes"
+  ],
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://linux.social/@Hannes"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://linux.social/users/Hannes"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://linux.social/authorize_interaction?uri={uri}"
+    }
+  ]
+}
