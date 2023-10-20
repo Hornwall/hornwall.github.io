@@ -2,7 +2,9 @@
   "subject": "acct:Hannes@linux.social",
   "aliases": [
     "https://linux.social/@Hannes",
-    "https://linux.social/users/Hannes"
+    "https://linux.social/users/Hannes",
+    "https://mastodon.nu/@hornwall",
+    "https://mastodon.nu/users/hornwall"
   ],
   "links": [
     {
@@ -18,6 +20,20 @@
     {
       "rel": "http://ostatus.org/schema/1.0/subscribe",
       "template": "https://linux.social/authorize_interaction?uri={uri}"
+    },
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://mastodon.nu/@hornwall"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://mastodon.nu/users/hornwall"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://mastodon.nu/authorize_interaction?uri={uri}"
     }
   ]
 }
